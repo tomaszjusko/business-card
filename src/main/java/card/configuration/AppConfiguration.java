@@ -17,7 +17,7 @@ public class AppConfiguration {
         mailSender.setHost("poczta.interia.pl");
         mailSender.setPort(587);
         mailSender.setUsername("fajny.mail@pisz.to");
-        mailSender.setPassword("czarnesmoki32167");
+        mailSender.setPassword("**************");
 
         Properties properties = mailSender.getJavaMailProperties();
         properties.put("mail.transport.protocol", "smtp");
